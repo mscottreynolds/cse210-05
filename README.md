@@ -62,10 +62,10 @@ root                    (project root folder)
 
 ## FAQ
 
-Q. What is polymorphism and why is it important?
+Q. What is polymorphism and why is it important?   
 A. Polymorphism in programming is the ability to have a method's behavior change depending on the programming context. A parent class can define a method that behaves in a certain or default way. Child classes of that parent class can override that same method, by defining a method with the same name and parameters and changing its behavior. This is important because it allows placing common methods and attributes in a single parent class and then having the child classes only implement the different behavior of a particular method. This can greatly simplify programming by reducing the need to define identical methods in multiple child classes.
 
-Q. How did you apply polymorphism in your program's design?
+Q. How did you apply polymorphism in your program's design?   
 A. Polymorphism is used in the Action class and its child classes. The execute_action() method doesn't do anything in the base Action class and must be further defined in each child class. The child class will override the execute_action() method to perform whatever it is the child class is designed to do. For example, a child class could be designed to draw the current state of the game. Another child class can get the users input. And another class can take the users input and update the state and scores of the game.
 
 
